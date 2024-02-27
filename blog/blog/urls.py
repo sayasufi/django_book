@@ -1,8 +1,11 @@
 from django.urls import path
 
 from . import views
+from .sitemaps import PostSitemap
+
 
 app_name = "blog"
+
 urlpatterns = [
     # представления поста
     path("", views.post_list, name="post_list"),
