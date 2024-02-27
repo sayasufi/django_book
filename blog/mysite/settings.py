@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "blog.apps.BlogConfig",
+    "taggit",
 ]
 
 MIDDLEWARE = [
@@ -131,5 +132,3 @@ EMAIL_HOST_USER = "ryaboff.sem@gmail.com"
 EMAIL_HOST_PASSWORD = "wodqenlrneezfylx "
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-
-
