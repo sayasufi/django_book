@@ -5,3 +5,5 @@
 python manage.py dumpdata --indent=2 --output=mysite_data.json
 
 python manage.py loaddata mysite_data.json
+
+python manage.py runserver_plus --cert-file cert.crt
